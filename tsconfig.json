@@ -9,6 +9,11 @@
     /* Modules */
     "module": "commonjs",
     "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     /* Emit */
     "declaration": true,
     "sourceMap": true,
